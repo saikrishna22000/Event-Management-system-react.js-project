@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.login-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.login-child {
+  min-width: 100px;
+  min-height: 250px;
+  background-color: antiquewhite;
+  size: 20px;
+  padding: 30px;
+  border: 1px solid rgb(246, 95, 57);
+  color: rgb(8, 119, 246);
+}
+
+.App-header {
+  background-color:#a0d2eb;
+  min-height: 20vh;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#a28089;
+}
+.App-body {
+  background-color:white;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(18, 189, 232);
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
